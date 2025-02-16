@@ -1,6 +1,6 @@
 mod problems;
 
 fn main() {
-    let result = problems::easy::contains_duplicate::contains_duplicate(vec![1, 2, 3, 3, 4, 5]);
+    let result = problems::easy::valid_anagram::valid_anagram("bat".to_string(), "tab".to_string());
     println!("{result}");
 }
